@@ -10,3 +10,4 @@ pytest>=8.0
 # Uncomment for MySQL 8.x deployment:
 # PyMySQL>=1.1
 # cryptography>=42.0
+gunicorn>=23.0
