@@ -14,6 +14,7 @@ import Reports from "./pages/Reports";
 import Notifications from "./pages/Notifications";
 import Profile from "./pages/Profile";
 import MLInsights from "./pages/MLInsights";
+import Chatbot from "./pages/Chatbot";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/goals" element={<Goals />} />
           <Route path="/reports" element={<Reports />} />
           <Route path="/ml-insights" element={<MLInsights />} />
+          <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/profile" element={<Profile />} />

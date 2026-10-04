@@ -31,6 +31,8 @@ const PATHS = {
   brain: "M9.5 4.5A3 3 0 0 0 4 6v2a3 3 0 0 0 0 5.2V15a3 3 0 0 0 5.5 1.5V4.5zM14.5 4.5A3 3 0 0 1 20 6v2a3 3 0 0 1 0 5.2V15a3 3 0 0 1-5.5 1.5V4.5zM9.5 9H7M14.5 9H17M9.5 14H7.5M14.5 14h2",
   trend: "M3 17l6-6 4 4 8-9M16 6h5v5",
   database: "M20 6c0 1.7-3.6 3-8 3S4 7.7 4 6s3.6-3 8-3 8 1.3 8 3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6",
+  chat: "M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4zM8 10h.01M12 10h.01M16 10h.01",
+  send: "M22 2 11 13M22 2l-7 20-4-9-9-4z",
 };
 
 export default function Icon({ name, size = 18, strokeWidth = 1.9, className = "", title }) {

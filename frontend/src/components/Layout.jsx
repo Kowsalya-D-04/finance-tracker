@@ -12,6 +12,7 @@ const NAV = [
   { to: "/goals", label: "Savings goals", icon: "goal" },
   { to: "/reports", label: "Reports", icon: "report" },
   { to: "/ml-insights", label: "ML Insights", icon: "brain" },
+  { to: "/chatbot", label: "Finance Chatbot", icon: "chat" },
   { to: "/categories", label: "Categories", icon: "category" },
   { to: "/notifications", label: "Notifications", icon: "bell" },
   { to: "/profile", label: "Profile", icon: "user" },

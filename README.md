@@ -280,3 +280,19 @@ For manual API testing, import the endpoints above into Postman: call `/api/auth
 ## 11. Future enhancements
 
 Recurring transactions and bill reminders, receipt scanning with OCR, bank statement import with duplicate detection, multi-currency conversion and shared family budgets, Progressive Web App support with push notifications, and rule-based spending suggestions.
+
+## Finance Chatbot
+The application includes a login-protected Finance Chatbot at `/chatbot`.
+It requires no external API key. The chatbot answers from the signed-in user's own stored finance data and supports questions about:
+- current balance and monthly savings
+- monthly income and expenses
+- top spending categories
+- budget status
+- savings goals
+- recent transactions
+- ML expense forecast
+- basic personalized saving guidance
+
+API endpoints:
+- `POST /api/chatbot/message` with `{ "message": "What is my balance?" }`
+- `GET /api/chatbot/suggestions`
