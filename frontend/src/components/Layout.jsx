@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import Icon from "./Icon";
 import TransactionModal from "./TransactionModal";
+import FloatingChatbot from "./FloatingChatbot";
 import { useAuth } from "../context/AuthContext";
 import { useApp } from "../context/AppContext";
 
@@ -104,6 +105,7 @@ export default function Layout() {
         </main>
       </div>
       <TransactionModal />
+      <FloatingChatbot />
     </div>
   );
 }
